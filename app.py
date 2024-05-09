@@ -130,6 +130,8 @@ def RemoveCart():
 
 @app.route('/Payment', methods=['POST','GET'])
 def Payment():
+    if 'cart' not in session:
+        return redirect(url_for('Cart'))
     if session['cart'] == {}:
         flash("Add Some Items To Your Cart")
         return redirect(url_for('Cart'))

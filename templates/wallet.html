@@ -91,10 +91,10 @@ section li {
     <div class="top-half">
       <h2>Your payment should be made here:</h2>
       <p>
-        <p>Bitcoin Address(BTC): <span id="btc-address"><input type="text" value="bc1qdaey7x234xpaz777ta47vq6ghmvyv6gn333n4e" id="myInput"> </span><button onclick="myFunction()">Copy To clipboard</button>
+        <p>Bitcoin Address(BTC): <span id="btc-address"><input type="text" value="bc1qdaey7x234xpaz777ta47vq6ghmvyv6gn333n4e" id="btc" readonly> </span><button onclick="copyToClipboard('btc')">Copy To clipboard</button>
       </p>
       <p>
-        <p>USDT Address( TRC-20): <span id="btc-address"><input type="text" value="TVjT8QpLuzA5PmEnMvf1T1VNkeGm4f7p7L" id="myInput"> </span><button onclick="myFunction()">Copy To clipboard</button>
+        <p>USDT Address( TRC-20): <span id="btc-address"><input type="text" value="TVjT8QpLuzA5PmEnMvf1T1VNkeGm4f7p7L" id="usdt" readonly> </span><button onclick="copyToClipboard('usdt')">Copy To clipboard</button>
       </p>
       
 
@@ -136,21 +136,37 @@ section li {
  
 </div>
 <script>
-  function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
+  function copyToClipboard(inputId) {
+    // Get the input field
+    var inputField = document.getElementById(inputId);
 
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
+    // Get the input field value
+    var inputValue = inputField.value;
 
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+    // Create a temporary input element
+    var tempInput = document.createElement("textarea");
 
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
-} 
+    // Set the value of the temporary input element to the input field value
+    tempInput.value = inputValue;
+
+    // Append the temporary input element to the body
+    document.body.appendChild(tempInput);
+
+    // Select the text inside the temporary input element
+    tempInput.select();
+
+    // Execute the copy command
+    document.execCommand("copy");
+
+    // Remove the temporary input element
+    document.body.removeChild(tempInput);
+
+    // Alert the user
+    alert("Copied the text: " + inputValue);
+  }
 </script>
+
+
 
 </body>
 </html>
