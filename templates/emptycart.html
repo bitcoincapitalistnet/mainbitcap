@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+    <div id="shopify-section-template--18680031707423__cart-items" class="shopify-section"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-cart.css?v=61086454150987525971681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-cart-items.css?v=29412722223528841861681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-totals.css?v=86168756436424464851681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-price.css?v=65402837579211014041681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-discounts.css?v=152760482443307489271681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-loading-overlay.css?v=167310470843593579841681884298" rel="stylesheet" type="text/css" media="all">
+<style data-shopify="">.section-template--18680031707423__cart-items-padding {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+@media screen and (min-width: 750px) {
+  .section-template--18680031707423__cart-items-padding {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+}</style><cart-items class="page-width is-empty">
+<div class="title-wrapper-with-link">
+  <h1 class="title title--primary">Your cart</h1>
+  <a href="/collections/all" class="underlined-link">Continue shopping</a>
+</div>
+
+<div class="cart__warnings">
+  <h1 class="cart__empty-text">Your cart is empty</h1>
+  <a href="{{url_for('Catalog')}}" class="button">
+    Continue shopping
+  </a></div>
+
+</cart-items>
+
+
+</div><div id="shopify-section-template--18680031707423__cart-footer" class="shopify-section cart__footer-wrapper"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-cart.css?v=61086454150987525971681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-totals.css?v=86168756436424464851681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-price.css?v=65402837579211014041681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-discounts.css?v=152760482443307489271681884298" rel="stylesheet" type="text/css" media="all">
+
+<div class="page-width is-empty" id="main-cart-footer" data-id="template--18680031707423__cart-footer">
+<div>
+  <div class="cart__footer"><div class="cart__blocks">
+      
+<div class="js-contents">
+              <div class="totals">
+                <h2 class="totals__subtotal">Subtotal</h2>
+                <p class="totals__subtotal-value">$0.00 USD</p>
+              </div>
+
+              <div></div>
+
+              <small class="tax-note caption-large rte">Taxes and shipping calculated at checkout
+</small>
+            </div>
+<div class="cart__ctas">
+          
+
+      <div id="cart-errors"></div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+  </main>
+
+{% endblock main %}

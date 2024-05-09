@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+{% block main %}
+
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      <div id="shopify-section-template--18680031707423__cart-items" class="shopify-section"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-cart.css?v=61086454150987525971681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-cart-items.css?v=29412722223528841861681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-totals.css?v=86168756436424464851681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-price.css?v=65402837579211014041681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-discounts.css?v=152760482443307489271681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-loading-overlay.css?v=167310470843593579841681884298" rel="stylesheet" type="text/css" media="all">
+<style data-shopify="">.section-template--18680031707423__cart-items-padding {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-template--18680031707423__cart-items-padding {
+      padding-top: 36px;
+      padding-bottom: 36px;
+    }
+  }</style><cart-items class="page-width section-template--18680031707423__cart-items-padding">
+  <div class="title-wrapper-with-link">
+    <h1 class="title title--primary">Your cart</h1>
+    <a href="{{url_for('Catalog')}}" class="underlined-link">Continue shopping</a>
+  </div>
+{% if cart == {} %}
+  <div class="cart__warnings">
+    <h1 class="cart__empty-text">Your cart is empty</h1>
+    <a href="/collections/all" class="button">
+      Continue shopping
+    </a></div>
+  {% else %}  
+
+  <form action="{{url_for('RemoveCart')}}" class="cart__contents critical-hidden" method="post" id="">
+    <div class="cart__items" id="main-cart-items" data-id="template--18680031707423__cart-items">
+      <div class="js-contents"><table class="cart-items">
+            <caption class="visually-hidden">
+              Your cart
+            </caption>
+            <thead>
+              <tr>
+                <th class="caption-with-letter-spacing" colspan="2" scope="col">
+                  Product
+                </th>
+                <th class="medium-hide large-up-hide right caption-with-letter-spacing" colspan="1" scope="col">
+                  Total
+                </th>
+                <th class="cart-items__heading--wide small-hide caption-with-letter-spacing" colspan="1" scope="col">
+                  Quantity
+                </th>
+                <th class="small-hide right caption-with-letter-spacing" colspan="1" scope="col">
+                  Total
+                </th>
+              </tr>
+            </thead>
+            {% for item in cart %}
+            <tbody><tr class="cart-item" id="CartItem-1">
+                  <td class="cart-item__media">
+                    
+                      
+                      <!-- <a href="/products/40ft-air-cooling-bitcoin-mining-container-324-miners-1-4-mw-power-load?variant=47483538112799" class="cart-item__link" aria-hidden="true" tabindex="-1"> </a> -->
+                      <div class="cart-item__image-container gradient global-media-settings">
+                        <img src="{{ item.details['imgsrc'] }}" class="cart-item__image" alt="{{ item.details['Pname'] }}" loading="lazy" width="150" height="113">
+                      </div>
+                    
+                  </td>
+
+                  <td class="cart-item__details">{{ item['details']['name'] }}</a><div class="product-option">
+                    ${{ "{:,.2f}".format(item['details']['price']) }}
+                      </div><dl></dl>
+
+                      <p class="product-option"></p><ul class="discounts list-unstyled" role="list" aria-label="Discount"></ul>
+                  </td>
+
+                  <td class="cart-item__totals right medium-hide large-up-hide">
+                    <div class="loading-overlay hidden">
+                      <div class="loading-overlay__spinner">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cart-item__price-wrapper"><span class="price price--end">
+                      ${{ "{:,.2f}".format(item['details']['total_price']) }}
+
+                        </span></div>
+                  </td>
+
+                  <td class="">                  
+              
+                    <form action="/deleting" method="post">
+                               {{ item['details']['quantity'] }}                               
+                              <!-- Form to remove item from cart -->
+                              
+                                  <input type="hidden" name="product_id" value="{{ item['product_id'] }}">
+                                  <button type="submit">Remove</button>
+                              </form>
+                    
+                  </td>
+
+                  <td class="cart-item__totals right small-hide">
+                    <div class="loading-overlay hidden">
+                      <div class="loading-overlay__spinner">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="cart-item__price-wrapper"><span class="price price--end">
+                      ${{ "{:,.2f}".format(item['details']['total_price']) }}
+
+                        </span></div>
+                  </td>
+                </tr></tbody>
+                {% endfor %}
+          </table></div>
+    </div>
+
+    <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
+    <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true" role="status">
+      Loading...
+    </p>
+  </form>
+</cart-items>
+
+
+</div><div id="shopify-section-template--18680031707423__cart-footer" class="shopify-section cart__footer-wrapper"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-cart.css?v=61086454150987525971681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-totals.css?v=86168756436424464851681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-price.css?v=65402837579211014041681884298" rel="stylesheet" type="text/css" media="all">
+<link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/component-discounts.css?v=152760482443307489271681884298" rel="stylesheet" type="text/css" media="all">
+
+<div class="page-width" id="main-cart-footer" data-id="template--18680031707423__cart-footer">
+  <div>
+    <div class="cart__footer"><div class="cart__blocks">
+        
+<div class="js-contents">
+                <div class="totals">
+                  <h2 class="totals__subtotal">Subtotal</h2>
+                  <p class="totals__subtotal-value">${{subtotal}}</p>
+                </div>
+
+                <div></div>
+
+                <small class="tax-note caption-large rte">Taxes and shipping calculated at checkout
+</small>
+              </div>
+<div class="cart__ctas">
+              <form action="{{url_for('Checkout', _externals=False)}}">
+                <input type="hidden" >
+
+          <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout">
+                            Check out
+                          </button>
+
+              </form>
+                
+              </div>
+
+        <div id="cart-errors"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+{% endif %}
+    </main>
+
+{% endblock main %}

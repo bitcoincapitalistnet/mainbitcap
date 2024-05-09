@@ -1,0 +1,850 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+  <section id="shopify-section-template--18680031936799__main" class="shopify-section section">
+    <section id="MainProduct-template--18680031936799__main"
+      class="page-width section-template--18680031936799__main-padding" data-section="template--18680031936799__main">
+      <link
+        href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/section-main-product.css?v=157092525546755742111681884299"
+        rel="stylesheet" type="text/css" media="all" />
+      <link
+        href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-accordion.css?v=180964204318874863811681884298"
+        rel="stylesheet" type="text/css" media="all" />
+      <link href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-price.css?v=65402837579211014041681884298"
+        rel="stylesheet" type="text/css" media="all" />
+      <link
+        href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-slider.css?v=111384418465749404671681884298"
+        rel="stylesheet" type="text/css" media="all" />
+      <link href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-rating.css?v=24573085263941240431681884298"
+        rel="stylesheet" type="text/css" media="all" />
+      <link
+        href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-loading-overlay.css?v=167310470843593579841681884298"
+        rel="stylesheet" type="text/css" media="all" />
+      <link
+        href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-deferred-media.css?v=8449899997886876191681884298"
+        rel="stylesheet" type="text/css" media="all" />
+      <style data-shopify>
+        .section-template--18680031936799__main-padding {
+          padding-top: 45px;
+          padding-bottom: 45px;
+        }
+
+        @media screen and (min-width: 750px) {
+          .section-template--18680031936799__main-padding {
+            padding-top: 60px;
+            padding-bottom: 60px;
+          }
+        }
+      </style>
+      <script src="https://bitcoincapitalist.io/cdn/shop/t/2/assets/product-info.js?v=174806172978439001541681884299"
+        defer="defer"></script>
+      <script src="https://bitcoincapitalist.io/cdn/shop/t/2/assets/product-form.js?v=70868584464135832471681884299"
+        defer="defer"></script>
+
+
+
+      <div
+        class="product product--small product--left product--thumbnail_slider product--mobile-hide grid grid--1-col grid--2-col-tablet">
+        <div class="grid__item product__media-wrapper">
+
+          <media-gallery id="MediaGallery-template--18680031936799__main" role="region" class="product__column-sticky"
+            aria-label="Gallery Viewer" data-desktop-layout="thumbnail_slider">
+            <div id="GalleryStatus-template--18680031936799__main" class="visually-hidden" role="status"></div>
+            <slider-component id="GalleryViewer-template--18680031936799__main" class="slider-mobile-gutter"><a
+                class="skip-to-content-link button visually-hidden quick-add-hidden"
+                href="panama-residency-by-investment#ProductInfo-template--18680031936799__main">
+                Skip to product information
+              </a>
+              <ul id="Slider-Gallery-template--18680031936799__main"
+                class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
+                role="list">
+                <li id="Slide-template--18680031936799__main-33577987080479"
+                  class="product__media-item grid__item slider__slide is-active"
+                  data-media-id="template--18680031936799__main-33577987080479">
+
+                  <div
+                    class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                    style="--ratio: 1.5305555555555554; --preview-ratio: 1.5305555555555554;">
+                    <noscript>
+                      <div class="product__media media">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=71350&amp;https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=823220850&https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=9901683220https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1100?v=16832https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=134620-1.jpghttps://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=142602x720-1https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=16464-1102x7https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1946nt-24-1102x720-1.jpg?v=1683220850&amp;width=1946 1946w"
+                          width="1946" height="1271"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                    </noscript>
+
+                    <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                      data-modal="#ProductModal-template--18680031936799__main">
+                      <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                        aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                          height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="4" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                      <div class="product__media media media--transparent">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=71350&amp;https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=823220850&https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=9901683220https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1100?v=16832https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=134620-1.jpghttps://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=142602x720-1https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=16464-1102x7https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1946nt-24-1102x720-1.jpg?v=1683220850&amp;width=1946 1946w"
+                          width="1946" height="1271" class="image-magnify-lightbox"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                      <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox" type="button"
+                        aria-haspopup="dialog" data-media-id="33577987080479">
+                        <span class="visually-hidden">
+                          Open media 1 in modal
+                        </span>
+                      </button>
+                    </modal-opener>
+                  </div>
+
+                </li>
+                <li id="Slide-template--18680031936799__main-33730907734303"
+                  class="product__media-item grid__item slider__slide"
+                  data-media-id="template--18680031936799__main-33730907734303">
+
+                  <div
+                    class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                    style="--ratio: 0.8; --preview-ratio: 0.8;">
+                    <noscript>
+                      <div class="product__media media">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=13462455.jpghttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=142662df2455https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1646bec962dfhttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=19469b4-bec962df2455.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2433" loading="lazy"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                    </noscript>
+
+                    <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                      data-modal="#ProductModal-template--18680031936799__main">
+                      <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                        aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                          height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="4" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                      <div class="product__media media media--transparent">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=13462455.jpghttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=142662df2455https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1646bec962dfhttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=19469b4-bec962df2455.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2433" loading="lazy" class="image-magnify-lightbox"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                      <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox" type="button"
+                        aria-haspopup="dialog" data-media-id="33730907734303">
+                        <span class="visually-hidden">
+                          Open media 2 in modal
+                        </span>
+                      </button>
+                    </modal-opener>
+                  </div>
+
+                </li>
+                <li id="Slide-template--18680031936799__main-33730907767071"
+                  class="product__media-item grid__item slider__slide"
+                  data-media-id="template--18680031936799__main-33730907767071">
+
+                  <div
+                    class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                    style="--ratio: 0.75; --preview-ratio: 0.75;">
+                    <noscript>
+                      <div class="product__media media">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=13467314.jpghttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=142658db7314https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=16462dc958dbhttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1946cc1-2dc958db7314.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2595" loading="lazy"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                    </noscript>
+
+                    <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                      data-modal="#ProductModal-template--18680031936799__main">
+                      <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                        aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                          height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="4" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                      <div class="product__media media media--transparent">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=13467314.jpghttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=142658db7314https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=16462dc958dbhttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1946cc1-2dc958db7314.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2595" loading="lazy" class="image-magnify-lightbox"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                      <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox" type="button"
+                        aria-haspopup="dialog" data-media-id="33730907767071">
+                        <span class="visually-hidden">
+                          Open media 3 in modal
+                        </span>
+                      </button>
+                    </modal-opener>
+                  </div>
+
+                </li>
+                <li id="Slide-template--18680031936799__main-33730907799839"
+                  class="product__media-item grid__item slider__slide"
+                  data-media-id="template--18680031936799__main-33730907799839">
+
+                  <div
+                    class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                    style="--ratio: 0.75; --preview-ratio: 0.75;">
+                    <noscript>
+                      <div class="product__media media">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1346dfd9.jpghttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=142606efdfd9https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1646d40106efhttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=19460be-d40106efdfd9.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2595" loading="lazy"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                    </noscript>
+
+                    <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                      data-modal="#ProductModal-template--18680031936799__main">
+                      <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                        aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                          height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="4" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                      <div class="product__media media media--transparent">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1346dfd9.jpghttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=142606efdfd9https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1646d40106efhttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=19460be-d40106efdfd9.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2595" loading="lazy" class="image-magnify-lightbox"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                      <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox" type="button"
+                        aria-haspopup="dialog" data-media-id="33730907799839">
+                        <span class="visually-hidden">
+                          Open media 4 in modal
+                        </span>
+                      </button>
+                    </modal-opener>
+                  </div>
+
+                </li>
+                <li id="Slide-template--18680031936799__main-33730907832607"
+                  class="product__media-item grid__item slider__slide"
+                  data-media-id="template--18680031936799__main-33730907832607">
+
+                  <div
+                    class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                    style="--ratio: 0.75; --preview-ratio: 0.75;">
+                    <noscript>
+                      <div class="product__media media">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=13469576.jpghttps://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1426aa249576https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1646b637aa24https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=19464aa-b637aa249576.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2595" loading="lazy"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                    </noscript>
+
+                    <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                      data-modal="#ProductModal-template--18680031936799__main">
+                      <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                        aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                          height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                            fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="4" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                      <div class="product__media media media--transparent">
+                        <img
+                          src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&amp;width=1946"
+                          alt=""
+                          srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=246=246 24https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=493idth=49https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=600mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=71340&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=823530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=9901684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1100?v=16845https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1206.jpg?v=1https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=13469576.jpghttps://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1426aa249576https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1646b637aa24https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=19464aa-b637aa249576.jpg?v=1684530340&amp;width=1946 1946w"
+                          width="1946" height="2595" loading="lazy" class="image-magnify-lightbox"
+                          sizes="(min-width: 1200px) 495px, (min-width: 990px) calc(45.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                      </div>
+                      <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox" type="button"
+                        aria-haspopup="dialog" data-media-id="33730907832607">
+                        <span class="visually-hidden">
+                          Open media 5 in modal
+                        </span>
+                      </button>
+                    </modal-opener>
+                  </div>
+
+                </li>
+              </ul>
+              <div class="slider-buttons no-js-hidden quick-add-hidden">
+                <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left">
+                  <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
+                  </svg>
+
+                </button>
+                <div class="slider-counter caption">
+                  <span class="slider-counter--current">1</span>
+                  <span aria-hidden="true"> / </span>
+                  <span class="visually-hidden">of</span>
+                  <span class="slider-counter--total">5</span>
+                </div>
+                <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right">
+                  <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
+                  </svg>
+
+                </button>
+              </div>
+            </slider-component><slider-component id="GalleryThumbnails-template--18680031936799__main"
+              class="thumbnail-slider slider-mobile-gutter quick-add-hidden small-hide">
+              <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left"
+                aria-controls="GalleryThumbnails-template--18680031936799__main" data-step="3">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                </svg>
+
+              </button>
+              <ul id="Slider-Thumbnails-template--18680031936799__main"
+                class="thumbnail-list list-unstyled slider slider--mobile slider--tablet-up">
+                <li id="Slide-Thumbnails-template--18680031936799__main-1" class="thumbnail-list__item slider__slide"
+                  data-target="template--18680031936799__main-33577987080479" data-media-position="1"><button
+                    class="thumbnail global-media-settings global-media-settings--no-shadow"
+                    aria-label="Load image 1 in gallery view" aria-current="true"
+                    aria-controls="GalleryViewer-template--18680031936799__main" aria-describedby="Thumbnail-template--18680031936799__main-1
+">
+                    <img
+                      src="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&amp;width=416"
+                      alt="Panama Residency by Investment"
+                      srcset="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=54h=54 5https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=74width=https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=104mp;widthttps://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=16250&amp;https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=208220850&https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=3241683220https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=416g?v=1683220850&amp;width=416 416w"
+                      width="416" height="272" loading="lazy" sizes="(min-width: 1200px) calc((495 - 4rem) / 4),
+          (min-width: 990px) calc((45.0vw - 4rem) / 4),
+          (min-width: 750px) calc((100vw - 15rem) / 8),
+          calc((100vw - 8rem) / 3)" id="Thumbnail-template--18680031936799__main-1
+">
+                  </button>
+                </li>
+                <li id="Slide-Thumbnails-template--18680031936799__main-2" class="thumbnail-list__item slider__slide"
+                  data-target="template--18680031936799__main-33730907734303" data-media-position="2"><button
+                    class="thumbnail global-media-settings global-media-settings--no-shadow"
+                    aria-label="Load image 2 in gallery view"
+                    aria-controls="GalleryViewer-template--18680031936799__main" aria-describedby="Thumbnail-template--18680031936799__main-2
+">
+                    <img
+                      src="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&amp;width=416"
+                      alt="Panama Residency by Investment"
+                      srcset="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=54h=54 5https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=74width=https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=104mp;widthttps://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=16240&amp;https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=208530340&https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=3241684530https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=416g?v=1684530340&amp;width=416 416w"
+                      width="416" height="520" loading="lazy" sizes="(min-width: 1200px) calc((495 - 4rem) / 4),
+          (min-width: 990px) calc((45.0vw - 4rem) / 4),
+          (min-width: 750px) calc((100vw - 15rem) / 8),
+          calc((100vw - 8rem) / 3)" id="Thumbnail-template--18680031936799__main-2
+">
+                  </button>
+                </li>
+                <li id="Slide-Thumbnails-template--18680031936799__main-3" class="thumbnail-list__item slider__slide"
+                  data-target="template--18680031936799__main-33730907767071" data-media-position="3"><button
+                    class="thumbnail global-media-settings global-media-settings--no-shadow"
+                    aria-label="Load image 3 in gallery view"
+                    aria-controls="GalleryViewer-template--18680031936799__main" aria-describedby="Thumbnail-template--18680031936799__main-3
+">
+                    <img
+                      src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&amp;width=416"
+                      alt="Panama Residency by Investment"
+                      srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=54h=54 5https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=74width=https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=104mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=16240&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=208530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=3241684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=416g?v=1684530340&amp;width=416 416w"
+                      width="416" height="555" loading="lazy" sizes="(min-width: 1200px) calc((495 - 4rem) / 4),
+          (min-width: 990px) calc((45.0vw - 4rem) / 4),
+          (min-width: 750px) calc((100vw - 15rem) / 8),
+          calc((100vw - 8rem) / 3)" id="Thumbnail-template--18680031936799__main-3
+">
+                  </button>
+                </li>
+                <li id="Slide-Thumbnails-template--18680031936799__main-4" class="thumbnail-list__item slider__slide"
+                  data-target="template--18680031936799__main-33730907799839" data-media-position="4"><button
+                    class="thumbnail global-media-settings global-media-settings--no-shadow"
+                    aria-label="Load image 4 in gallery view"
+                    aria-controls="GalleryViewer-template--18680031936799__main" aria-describedby="Thumbnail-template--18680031936799__main-4
+">
+                    <img
+                      src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&amp;width=416"
+                      alt="Panama Residency by Investment"
+                      srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=54h=54 5https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=74width=https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=104mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=16240&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=208530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=3241684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=416g?v=1684530340&amp;width=416 416w"
+                      width="416" height="555" loading="lazy" sizes="(min-width: 1200px) calc((495 - 4rem) / 4),
+          (min-width: 990px) calc((45.0vw - 4rem) / 4),
+          (min-width: 750px) calc((100vw - 15rem) / 8),
+          calc((100vw - 8rem) / 3)" id="Thumbnail-template--18680031936799__main-4
+">
+                  </button>
+                </li>
+                <li id="Slide-Thumbnails-template--18680031936799__main-5" class="thumbnail-list__item slider__slide"
+                  data-target="template--18680031936799__main-33730907832607" data-media-position="5"><button
+                    class="thumbnail global-media-settings global-media-settings--no-shadow"
+                    aria-label="Load image 5 in gallery view"
+                    aria-controls="GalleryViewer-template--18680031936799__main" aria-describedby="Thumbnail-template--18680031936799__main-5
+">
+                    <img
+                      src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&amp;width=416"
+                      alt="Panama Residency by Investment"
+                      srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=54h=54 5https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=74width=https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=104mp;widthttps://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=16240&amp;https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=208530340&https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=3241684530https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=416g?v=1684530340&amp;width=416 416w"
+                      width="416" height="555" loading="lazy" sizes="(min-width: 1200px) calc((495 - 4rem) / 4),
+          (min-width: 990px) calc((45.0vw - 4rem) / 4),
+          (min-width: 750px) calc((100vw - 15rem) / 8),
+          calc((100vw - 8rem) / 3)" id="Thumbnail-template--18680031936799__main-5
+">
+                  </button>
+                </li>
+              </ul>
+              <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right"
+                aria-controls="GalleryThumbnails-template--18680031936799__main" data-step="3">
+                <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                    fill="currentColor">
+                </svg>
+
+              </button>
+            </slider-component>
+          </media-gallery>
+
+        </div>
+        <div class="product__info-wrapper grid__item">
+          <product-info id="ProductInfo-template--18680031936799__main" data-section="template--18680031936799__main"
+            data-url="/products/panama-residency-by-investment" class="product__info-container product__column-sticky">
+            <p class="product__text inline-richtext">Bitcoin Capitalist </p>
+            <div class="product__title">
+              <h1>Panama Residency by Investment</h1>
+              <a href="panama-residency-by-investment" class="product__title">
+                <h2 class="h1">
+                  Panama Residency by Investment
+                </h2>
+              </a>
+            </div>
+            <div class="no-js-hidden" id="price-template--18680031936799__main" role="status">
+              <div class="
+    price price--large price--show-badge">
+                <div class="price__container">
+                  <div class="price__regular">
+                    <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                    <span class="price-item price-item--regular">
+                      $5,500.00
+                    </span>
+                  </div>
+                  <div class="price__sale">
+                    <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                    <span>
+                      <s class="price-item price-item--regular">
+
+
+
+                      </s>
+                    </span><span class="visually-hidden visually-hidden--inline">Sale price</span>
+                    <span class="price-item price-item--sale price-item--last">
+                      $5,500.00
+                    </span>
+                  </div>
+                  <small class="unit-price caption hidden">
+                    <span class="visually-hidden">Unit price</span>
+                    <span class="price-item price-item--last">
+                      <span></span>
+                      <span aria-hidden="true">/</span>
+                      <span class="visually-hidden">&nbsp;per&nbsp;</span>
+                      <span>
+                      </span>
+                    </span>
+                  </small>
+                </div><span class="badge price__badge-sale color-accent-1">
+                  Sale
+                </span>
+
+                <span class="badge price__badge-sold-out color-background-1">
+                  Sold out
+                </span>
+              </div>
+            </div>
+            <div>
+              <form method="post" action="{{url_for('AddToCart')}}"
+                id="product-form-installment-template--18680031936799__main" accept-charset="UTF-8"
+                class="installment caption-large" enctype="multipart/form-data"><input type="hidden" name="form_type"
+                  value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="identity"
+                  value="44942569046303">
+
+                <input type="hidden" name="product-id" value="8248185028895" /><input type="hidden" name="section-id"
+                  value="template--18680031936799__main" />
+              </form>
+            </div>
+            <noscript class="product-form__noscript-wrapper-template--18680031936799__main">
+              <div class="product-form__input hidden">
+                <label class="form__label" for="Variants-template--18680031936799__main">Product variants</label>
+                <div class="select">
+                  <select name="identity" id="Variants-template--18680031936799__main" class="select__select"
+                    form="product-form-template--18680031936799__main">
+                    <option selected="selected" value="44942569046303">Default Title - $5,500.00</option>
+                  </select>
+                  <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
+                  </svg>
+
+                </div>
+              </div>
+            </noscript>
+
+            <div id="Quantity-Form-template--18680031936799__main" class="product-form__input product-form__quantity">
+
+
+
+              <label class="quantity__label form__label" for="Quantity-template--18680031936799__main">
+                Quantity
+                <span class="quantity__rules-cart no-js-hidden hidden">
+                  <span class="loading-overlay hidden">
+                    <span class="loading-overlay__spinner">
+                      <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                      </svg>
+                    </span>
+                  </span>
+                  <span>(<span class="quantity-cart">0</span> in cart)</span>
+                </span>
+              </label>
+              <quantity-input class="quantity">
+                <button class="quantity__button no-js-hidden" name="minus" type="button">
+                  <span class="visually-hidden">Decrease quantity for Panama Residency by Investment</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-minus"
+                    fill="none" viewBox="0 0 10 2">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
+                  </svg>
+
+                </button>
+                <input class="quantity__input" type="number" name="quantity"
+                  id="Quantity-template--18680031936799__main" data-cart-quantity="0" data-min="1" min="1" step="1"
+                  value="1" form="product-form-template--18680031936799__main" />
+                <button class="quantity__button no-js-hidden" name="plus" type="button">
+                  <span class="visually-hidden">Increase quantity for Panama Residency by Investment</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-plus"
+                    fill="none" viewBox="0 0 10 10">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z"
+                      fill="currentColor">
+                  </svg>
+
+                </button>
+              </quantity-input>
+              <div class="quantity__rules caption no-js-hidden"></div>
+            </div>
+
+
+            <div><product-form class="product-form" data-hide-errors="false">
+                <div class="product-form__error-message-wrapper" role="alert" hidden>
+                  <svg aria-hidden="true" focusable="false" class="icon icon-error" viewBox="0 0 13 13">
+                    <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2" />
+                    <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7" />
+                    <path
+                      d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z"
+                      fill="white" />
+                    <path
+                      d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z"
+                      fill="white" stroke="#EB001B" stroke-width="0.7">
+                  </svg>
+                  <span class="product-form__error-message"></span>
+                </div>
+                <form method="post" action="{{url_for('AddToCart')}}" id="product-form-template--18680031936799__main"
+                  accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate"
+                  data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input
+                    type="hidden" name="utf8" value="✓" /><input type="hidden" name="identity" value="44942569046303"
+                    disabled class="product-variant-id">
+                  <div class="product-form__buttons"><button id="ProductSubmitButton-template--18680031936799__main"
+                      type="submit" name="add" class="product-form__submit button button--full-width button--secondary">
+                      <span>Add To Cart
+                      </span>
+                      <div class="loading-overlay__spinner hidden">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </button>
+                    <div data-shopify="payment-button" data-has-selling-plan="false" data-has-fixed-selling-plan="false"
+                      data-customer-accounts-required="false" class="shopify-payment-button"><button
+                        class="shopify-payment-button__button shopify-payment-button__button--unbranded shopify-payment-button__button--hidden"
+                        disabled="disabled" aria-hidden="true"> </button><button
+                        class="shopify-payment-button__more-options shopify-payment-button__button--hidden"
+                        disabled="disabled" aria-hidden="true"> </button></div>
+                  </div><input type="hidden" name="product-id" value="8248185028895" /><input type="hidden"
+                    name="section-id" value="template--18680031936799__main" />
+                </form>
+              </product-form>
+              <link
+                href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-pickup-availability.css?v=23027427361927693261681884298"
+                rel="stylesheet" type="text/css" media="all" />
+              <pickup-availability class="product__pickup-availabilities no-js-hidden quick-add-hidden"
+                data-root-url="/" data-variant-id="44942569046303" data-has-only-default-variant="true">
+                <template>
+                  <pickup-availability-preview class="pickup-availability-preview">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false"
+                      class="icon icon-unavailable" fill="none" viewBox="0 0 20 20">
+                      <path fill="#DE3618" stroke="#fff"
+                        d="M13.94 3.94L10 7.878l-3.94-3.94A1.499 1.499 0 103.94 6.06L7.88 10l-3.94 3.94a1.499 1.499 0 102.12 2.12L10 12.12l3.94 3.94a1.497 1.497 0 002.12 0 1.499 1.499 0 000-2.12L12.122 10l3.94-3.94a1.499 1.499 0 10-2.121-2.12z" />
+                    </svg>
+
+                    <div class="pickup-availability-info">
+                      <p class="caption-large">Couldn&#39;t load pickup availability</p>
+                      <button class="pickup-availability-button link link--text underlined-link">
+                        Refresh
+                      </button>
+                    </div>
+                  </pickup-availability-preview>
+                </template>
+              </pickup-availability>
+
+              <script
+                src="https://bitcoincapitalist.io/cdn/shop/t/2/assets/pickup-availability.js?v=79308454523338307861681884299"
+                defer="defer"></script>
+            </div>
+            <div class="product__description rte quick-add-hidden">
+              <p>
+                <meta charset="utf-8"><span>Panama offers an investment visa program that allows foreigners to obtain
+                  temporary or permanent residency by investing in real estate or other businesses in the country. The
+                  minimum investment required for temporary residency is $200,000, while for permanent residency, it is
+                  $400,000. This residency package will cover all your legal expenses to the get the process
+                  started.  </span>
+              </p>
+
+            </div>
+
+            <script src="https://bitcoincapitalist.io/cdn/shop/t/2/assets/share.js?v=23059556731731026671681884299"
+              defer="defer"></script>
+
+            
+              </button>
+          </product-info>
+        </div>
+      </div>
+
+
+
+      <product-modal id="ProductModal-template--18680031936799__main" class="product-media-modal media-modal">
+        <div class="product-media-modal__dialog" role="dialog" aria-label="Media gallery" aria-modal="true"
+          tabindex="-1">
+          <button id="ModalClose-template--18680031936799__main" type="button" class="product-media-modal__toggle"
+            aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-close"
+              fill="none" viewBox="0 0 18 17">
+              <path
+                d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                fill="currentColor">
+            </svg>
+
+          </button>
+
+          <div class="product-media-modal__content color-background-1 gradient" role="document"
+            aria-label="Media gallery" tabindex="0">
+            <img class="global-media-settings global-media-settings--no-shadow"
+              srcset="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=550 550w,https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&width=1100 1100w,https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850 1102w"
+              sizes="(min-width: 750px) calc(100vw - 22rem), 1100px"
+              src="https://bitcoincapitalist.io/cdn/shop/files/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850&amp;width=1445"
+              alt="Panama Residency by Investment" loading="lazy" width="1100" height="719"
+              data-media-id="33577987080479">
+            <img class="global-media-settings global-media-settings--no-shadow"
+              srcset="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=550 550w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1100 1100w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1445 1445w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=1680 1680w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=2048 2048w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=2200 2200w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&width=2890 2890w,https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340 3024w"
+              sizes="(min-width: 750px) calc(100vw - 22rem), 1100px"
+              src="https://bitcoincapitalist.io/cdn/shop/files/3092D5B4-A303-4085-A620-1486E9033846_1e4d6ec5-7a39-49b0-a9b4-bec962df2455.jpg?v=1684530340&amp;width=1445"
+              alt="Panama Residency by Investment" loading="lazy" width="1100" height="1375"
+              data-media-id="33730907734303">
+            <img class="global-media-settings global-media-settings--no-shadow"
+              srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=550 550w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1100 1100w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1445 1445w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=1680 1680w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=2048 2048w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=2200 2200w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&width=2890 2890w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340 3024w"
+              sizes="(min-width: 750px) calc(100vw - 22rem), 1100px"
+              src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6600_70524c6a-f7a1-48e9-9cc1-2dc958db7314.jpg?v=1684530340&amp;width=1445"
+              alt="Panama Residency by Investment" loading="lazy" width="1100" height="1467"
+              data-media-id="33730907767071">
+            <img class="global-media-settings global-media-settings--no-shadow"
+              srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=550 550w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1100 1100w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1445 1445w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=1680 1680w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=2048 2048w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=2200 2200w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&width=2890 2890w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340 3024w"
+              sizes="(min-width: 750px) calc(100vw - 22rem), 1100px"
+              src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6601_600d2112-6a30-4be1-a0be-d40106efdfd9.jpg?v=1684530340&amp;width=1445"
+              alt="Panama Residency by Investment" loading="lazy" width="1100" height="1467"
+              data-media-id="33730907799839">
+            <img class="global-media-settings global-media-settings--no-shadow"
+              srcset="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=550 550w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1100 1100w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1445 1445w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=1680 1680w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=2048 2048w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=2200 2200w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&width=2890 2890w,https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340 3024w"
+              sizes="(min-width: 750px) calc(100vw - 22rem), 1100px"
+              src="https://bitcoincapitalist.io/cdn/shop/files/IMG-6606_0c5a5d4f-b3d3-4d82-a4aa-b637aa249576.jpg?v=1684530340&amp;width=1445"
+              alt="Panama Residency by Investment" loading="lazy" width="1100" height="1467"
+              data-media-id="33730907832607">
+          </div>
+        </div>
+      </product-modal>
+
+
+
+      <script src="https://bitcoincapitalist.io/cdn/shop/t/2/assets/product-modal.js?v=50921580101160527761681884299"
+        defer="defer"></script>
+      <script src="https://bitcoincapitalist.io/cdn/shop/t/2/assets/media-gallery.js?v=136815418543071173961681884299"
+        defer="defer"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          function isIE() {
+            const ua = window.navigator.userAgent;
+            const msie = ua.indexOf('MSIE ');
+            const trident = ua.indexOf('Trident/');
+
+            return msie > 0 || trident > 0;
+          }
+
+          if (!isIE()) return;
+          const hiddenInput = document.querySelector('#product-form-template--18680031936799__main input[name="identity"]');
+          const noScriptInputWrapper = document.createElement('div');
+          const variantSwitcher =
+            document.querySelector('variant-radios[data-section="template--18680031936799__main"]') ||
+            document.querySelector('variant-selects[data-section="template--18680031936799__main"]');
+          noScriptInputWrapper.innerHTML = document.querySelector(
+            '.product-form__noscript-wrapper-template--18680031936799__main'
+          ).textContent;
+          variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
+
+          document.querySelector('#Variants-template--18680031936799__main').addEventListener('change', function (event) {
+            hiddenInput.value = event.currentTarget.value;
+          });
+        });
+      </script>
+      <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      "name": "Panama Residency by Investment",
+      "url": "https:\/\/bitcoincapitalist.io\/products\/panama-residency-by-investment",
+      "image": [
+          "https:\/\/bitcoincapitalist.io\/cdn\/shop\/files\/P.H-Oceanfront-Panama-Punta-Paitilla-condos-for-sale-and-rent-24-1102x720-1.jpg?v=1683220850\u0026width=1920"
+        ],
+      "description": "Panama offers an investment visa program that allows foreigners to obtain temporary or permanent residency by investing in real estate or other businesses in the country. The minimum investment required for temporary residency is $200,000, while for permanent residency, it is $400,000. This residency package will cover all your legal expenses to the get the process started.  \nBook Consultation\nMore information \/ articles",
+      "sku": "PanamaResidency",
+      "brand": {
+        "@type": "Brand",
+        "name": "Bitcoin Capitalist "
+      },
+      "offers": [{
+            "@type" : "Offer","sku": "PanamaResidency","availability" : "http://schema.org/InStock",
+            "price" : 5500.0,
+            "priceCurrency" : "USD",
+            "url" : "https:\/\/bitcoincapitalist.io\/products\/panama-residency-by-investment?variant=44942569046303"
+          }
+]
+    }
+  </script>
+    </section>
+
+
+  </section>
+  <section id="shopify-section-template--18680031936799__related-products" class="shopify-section section">
+    <link href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-card.css?v=120027167547816435861681884298"
+      rel="stylesheet" type="text/css" media="all" />
+    <link href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/component-price.css?v=65402837579211014041681884298"
+      rel="stylesheet" type="text/css" media="all" />
+    <link
+      href="https://bitcoincapitalist.io/cdn/shop/t/2/assets/section-related-products.css?v=80324771040738084201681884299"
+      rel="stylesheet" type="text/css" media="all" />
+    <style data-shopify>
+      .section-template--18680031936799__related-products-padding {
+        padding-top: 0px;
+        padding-bottom: 45px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-template--18680031936799__related-products-padding {
+          padding-top: 0px;
+          padding-bottom: 60px;
+        }
+      }
+    </style>
+    <div class="color-background-1 gradient no-js-hidden">
+      <product-recommendations
+        class="related-products page-width section-template--18680031936799__related-products-padding isolate"
+        data-url="/recommendations/products?section_id=template--18680031936799__related-products&product_id=8248185028895&limit=4">
+
+      </product-recommendations>
+    </div>
+
+
+  </section>
+</main>
+
+{% endblock main %}

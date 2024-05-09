@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block main %}
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+    <section id="shopify-section-template--18680031871263__main" class="shopify-section section"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/section-main-page.css?v=848677459125201531681884299" rel="stylesheet" type="text/css" media="all"/>
+        <style data-shopify>
+            .section-template--18680031871263__main-padding {
+                padding-top: 27px;
+                padding-bottom: 21px;
+            }
+
+            @media screen and(min-width: 750px) {
+                .section-template--18680031871263__main-padding {
+                    padding-top: 36px;
+                    padding-bottom: 28px;
+                }
+            }
+        </style>
+        <div class="page-width page-width--narrow section-template--18680031871263__main-padding">
+            <h1 class="main-page-title page-title h0">
+                About us
+            </h1>
+            <div class="rte">
+                <meta charset="utf-8">
+                <p><img src="https://cdn.shopify.com/s/files/1/0747/5491/6639/files/IMG-2466_480x480.jpg?v=1684368375" alt=""><img src="https://cdn.shopify.com/s/files/1/0747/5491/6639/files/IMG-0461_480x480.jpg?v=1684368340" alt=""></p>
+                
+                <p>
+                    The Bitcoin Capitalist: Empowering People with Backup Residencies in Latin America</p>
+
+<p>The Bitcoin Capitalist began as a gold and silver investor, strongly believing in tangible assets and foreseeing that extensive government money printing would eventually lead to inflation and potential disaster for the global reserve currency, the dollar. Initially skeptical, the Bitcoin Capitalist was introduced to Bitcoin by a friend, dismissing it as a scam and likening it to the tulip bulb mania of the past. However he was wrong, as bitcoin has proven to be the best investment and better alternative to fiat.</p>
+
+<p>As a speculative move, the Bitcoin Capitalist made his first Bitcoin purchase and would buy gold whenever the Bitcoin price surged, using his newfound cryptocurrency to make purchases on his favorite gold dealer's website. The ease with which he conducted his first Bitcoin payment for gold left him in awe, leading him down the proverbial rabbit hole of Bitcoin, consuming every piece of information available on the subject. Through extensive study, he came to realize that Bitcoin would become a global reserve asset, bearing the same significance as the advent of the internet.</p>
+
+<p>Leaving behind a comfortable position as Vice President of one of the largest packaging distribution companies, the Bitcoin Capitalist embarked on a full-time journey with Bitcoin, and that's when the adventure truly began. His mission was to educate people about Bitcoin and sell it through ATMs across Latin America. However, simply installing Bitcoin ATMs in these countries proved insufficient due to the limited knowledge of Bitcoin in the region. The Bitcoin Capitalist took it upon himself to personally educate the people, through social media platforms,especially on facebook and through symposiums and webinars. He found immense success, reaching millions of people with his message on how to benefit from the innovations offered by bitcoin and how to invest profitably.</p>
+
+<p>While establishing his Bitcoin business throughout Latin America, the Bitcoin Capitalist also acquired backup residencies, firmly believing that they could serve as an insurance policy for any potential trouble that might befall America. As the Bitcoin Capitalist's digital nomad friends began inquiring about his residency achievements, he became overwhelmed by the requests and decided to create a Telegram group to address them collectively, saving himself from repeating the same information. With scarce accurate information available and consulting firms charging exorbitant fees, the Bitcoin Capitalist's social media channels gained immense popularity, continuing to grow as more people recognize the demand for Bitcoin and the importance of having backup residencies and citizenships as a contingency plan.</p>
+
+<p>On the whole, thousands of lives have been impacted positively and through his guidance and services a lot of people have gained financial freedom. Bitcoincapitalist continues to expand his network of successful investors by building trust and bridging the gap between knowledge and action.</p>
+
+<p>There is no better time to invest than now, the future belongs to those who take proactive actions.
+                </p>
+                
+                
+                <img src="https://cdn.shopify.com/s/files/1/0747/5491/6639/files/IMG-0470_480x480.jpg?v=1684368423" alt=""><img src="https://cdn.shopify.com/s/files/1/0747/5491/6639/files/IMG-2924_480x480.jpg?v=1684368402" alt=""></p>
+            </div>
+        </div>
+
+
+    </section>
+</main>
+{% endblock main %}

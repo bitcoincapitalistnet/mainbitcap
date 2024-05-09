@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment</title>
+
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100v;
+}
+
+.container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh ;/* Adjusted height to leave space for button */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between; /* Align items vertically */
+}
+
+.split-container {
+  flex: 1; /* Changed height to flex to take up remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.top-half {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #444;
+}
+
+.bottom-half {
+  padding: 20px;
+  flex: 1; /* Changed height to flex to take up remaining space */
+}
+
+.process-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%; /* Adjusted width to fit content */
+  margin-top: -20%; /* Push button down by 20% */
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.process-btn:hover {
+  background-color: #3e8e41;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+
+section h3 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="split-container">
+    <div class="top-half">
+      <h2>Your payment should be made here:</h2>
+      <p>
+        <p>Bitcoin Address(BTC): <span id="btc-address"><input type="text" value="bc1qdaey7x234xpaz777ta47vq6ghmvyv6gn333n4e" id="myInput"> </span><button onclick="myFunction()">Copy To clipboard</button>
+      </p>
+      <p>
+        <p>USDT Address( TRC-20): <span id="btc-address"><input type="text" value="TVjT8QpLuzA5PmEnMvf1T1VNkeGm4f7p7L" id="myInput"> </span><button onclick="myFunction()">Copy To clipboard</button>
+      </p>
+      
+
+      <!-- The button used to copy the text -->
+      
+
+      <!-- <span id="btc-address">bc1q234567890asdfghjklmnbvcxz</span></p>
+      <p>USDT Address: <span id="btc-address">bc1q234567890asdfghjklmnbvcxz</span></p> -->
+    </div>
+    <div class="bottom-half">
+      <h2>Order Details</h2>
+      <section>
+        <h3>Order Summary</h3>
+        <ul>
+          {% for item in cart %}
+
+          <p class="payment-header-description">
+
+            {{ item['details']['name'] }} | ${{ "{:,.2f}".format(item['details']['price']) }}
+
+
+          </p>
+          <br />
+        </ul>
+
+        {% endfor %}
+        Total:           ${{subtotal}}
+      </section>
+      <section>
+        <h3>Shipping Information</h3>
+        <p>Name: {{name}}</p>
+        <p>Email: {{email}}</p>
+        <p>Address: {{address}}</p>
+        <p>{{city}}, {{state}}, {{zip}}</p> 
+      </section>
+    </div>
+    <a href="/"><button class="process-btn">Continue Shopping</button></a>
+  </div>
+ 
+</div>
+<script>
+  function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+} 
+</script>
+
+</body>
+</html>

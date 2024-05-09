@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://bitcoincapitalist.io/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://bitcoincapitalist.io/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://bitcoincapitalist.io/collections/paraguay.atom"/>
+  <title>Bitcoin Capitalist </title>
+  <updated>2023-05-04T14:03:09-07:00</updated>
+  <author>
+    <name>Bitcoin Capitalist </name>
+  </author>
+  <entry>
+    <id>https://bitcoincapitalist.io/products/8248445894943</id>
+    <published>2023-05-04T14:03:09-07:00</published>
+    <updated>2023-05-04T14:03:09-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://bitcoincapitalist.io/products/paraguay-citizenship-package"/>
+    <title>Paraguay Citizenship Package</title>
+    <s:type></s:type>
+    <s:vendor>Bitcoin Capitalist </s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0747/5491/6639/files/dualpassports.jpg?v=1683234191"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bitcoin Capitalist <br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            19000.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><span>Once you have been a resident of Paraguay for 36 months, you can apply for naturalization and obtain a Paraguayan passport. Let the Bitcoin Capitalist team ensure that your experience of obtaining a Paraguay passport is smooth and hassle-free.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bitcoincapitalist.io/products/8248445894943</id>
+      <title>Default Title</title>
+      <s:price currency="USD">19000.00</s:price>
+      <s:sku>PYPassport</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bitcoincapitalist.io/products/8248197644575</id>
+    <published>2023-05-04T10:30:09-07:00</published>
+    <updated>2023-05-04T10:30:09-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://bitcoincapitalist.io/products/paraguay-drivers-license"/>
+    <title>Paraguay Driver&apos;s License Consulting</title>
+    <s:type></s:type>
+    <s:vendor>Bitcoin Capitalist </s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0747/5491/6639/files/custom_resized_f123b78f-e9ad-4d85-b28e-95ce37e8424c.webp?v=1683232640"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bitcoin Capitalist <br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            200.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><span>After becoming a resident of Paraguay and obtaining a Cedula, it is possible to obtain a Paraguay driver's license. You will be issued two licenses - one for driving a car and another for driving a motorcycle.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bitcoincapitalist.io/products/8248197644575</id>
+      <title>Default Title</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>PYDriverLicense</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bitcoincapitalist.io/products/8215051370783</id>
+    <published>2023-04-18T23:27:03-07:00</published>
+    <updated>2023-04-18T23:27:03-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://bitcoincapitalist.io/products/paraguay-residency-package"/>
+    <title>Paraguay Residency Package</title>
+    <s:type>paraguay residency</s:type>
+    <s:vendor>Bitcoin Capitalist </s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0747/5491/6639/products/IMG-7062.jpg?v=1681885625"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bitcoin Capitalist <br>
+        <strong>Type: </strong>paraguay residency<br>
+        <strong>Price: </strong>
+            5000.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p>Welcome to Bitcoin Capitalist's Full Service Residency Package in Paraguay - Your Gateway to a New Life!</p>
+<p>Our comprehensive residency service in Paraguay offers you a hassle-free and streamlined process to obtain residency, ensuring you can enjoy the benefits of living in this beautiful country. With Bitcoin Capitalist as your trusted partner, you can embark on an exciting journey towards a new chapter of your life.</p>
+<p>What's included in our Full Service Residency Package:</p>
+<ol>
+<li>
+<p>Paraguay Residency: We handle all the intricate details and paperwork required for obtaining your Paraguay residency. Sit back and relax while we navigate the process on your behalf.</p>
+</li>
+<li>
+<p>Cedula (National I.D.): As part of our service, we assist you in obtaining your Paraguay National I.D. card (Cedula), an essential document that provides you with legal identification in the country.</p>
+</li>
+<li>
+<p>Paraguay Driver's License: Leave the hassle of obtaining a driver's license to us. With our service, you won't need to personally attend any appointments or deal with bureaucratic procedures. We'll ensure you receive your Paraguay driver's license effortlessly.</p>
+</li>
+<li>
+<p>Attorney and Government Fees: Say goodbye to the stress of managing attorney fees and government charges. We take care of all the necessary payments, ensuring a smooth and transparent process.</p>
+</li>
+<li>
+<p>Consulting by the Bitcoin Capitalist: Throughout the entire residency process, you will have the guidance and support of our experienced team. We offer consulting services, providing you with expert advice and assistance every step of the way.</p>
+</li>
+<li>
+<p>Access to the Bitcoin Capitalist Network: As a valued client, you gain access to our extensive network in Paraguay. Benefit from our established connections, which can open doors to various opportunities and resources within the country.</p>
+</li>
+</ol>
+<p>Bitcoin Capitalist's Full Service Residency Package is designed to make your transition to Paraguay seamless and stress-free. Our goal is to empower you with the necessary tools and support to embrace your new life with confidence.</p>
+<p>Don't miss out on the incredible opportunities that Paraguay has to offer. Invest in your future with Bitcoin Capitalist and embark on a journey towards a prosperous and fulfilling residency in Paraguay. Contact us today to get started on your exciting new chapter!</p>
+<p><a href="https://calendly.com/bitcoincapitalist21/bitcoin-capitalist-consultation?month=2023-05">Book Consultation</a></p>
+<p><a href="https://bitcoincapitalist21.substack.com/">More information / articles</a></p>
+<p><a href="https://linktr.ee/bitcoincapitalist">All links</a></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bitcoincapitalist.io/products/8215051370783</id>
+      <title>Default Title</title>
+      <s:price currency="USD">5000.00</s:price>
+      <s:sku>paraguay-residency</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

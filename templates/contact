@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block main %}
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+    <section id="shopify-section-template--18680031838495__main" class="shopify-section section"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/section-main-page.css?v=848677459125201531681884299" rel="stylesheet" type="text/css" media="all"/>
+        <style data-shopify>
+            .section-template--18680031838495__main-padding {
+                padding-top: 27px;
+                padding-bottom: 0;
+            }
+
+            @media screen and(min-width: 750px) {
+                .section-template--18680031838495__main-padding {
+                    padding-top: 36px;
+                    padding-bottom: 0;
+                }
+            }
+        </style>
+        <div class="page-width page-width--narrow section-template--18680031838495__main-padding">
+            <h1 class="main-page-title page-title h0">
+                Contact
+            </h1>
+            <div class="rte"></div>
+        </div>
+
+
+    </section>
+    <section id="shopify-section-template--18680031838495__form" class="shopify-section section"><link href="//bitcoincapitalist.io/cdn/shop/t/2/assets/section-contact-form.css?v=124756058432495035521681884299" rel="stylesheet" type="text/css" media="all"/>
+        <style data-shopify>
+            .section-template--18680031838495__form-padding {
+                padding-top: 0;
+                padding-bottom: 45px;
+            }
+
+            @media screen and(min-width: 750px) {
+                .section-template--18680031838495__form-padding {
+                    padding-top: 0;
+                    padding-bottom: 60px;
+                }
+            }
+        </style>
+        <div class="color-background-1 gradient">
+            <div class="contact page-width page-width--narrow section-template--18680031838495__form-padding">
+                <h2 class="visually-hidden">Contact form</h2>
+                <form method="post" action="{{url_for('Contactus')}}" id="ContactForm" accept-charset="UTF-8" class="isolate"><input type="hidden" name="form_type" value="contact"/><input type="hidden" name="utf8" value="✓"/><div class="contact__fields">
+                        <div class="field">
+                            <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="" placeholder="Name">
+                            <label class="field__label" for="ContactForm-name">Name</label>
+                        </div>
+                        <div class="field field--with-error">
+                            <input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+                            <label class="field__label" for="ContactForm-email">Email
+                                <span aria-hidden="true">*</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[Phone number]" pattern="[0-9\-]*" value="" placeholder="Phone number">
+                        <label class="field__label" for="ContactForm-phone">Phone number</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="10" id="ContactForm-body" class="text-area field__input" name="contact[Comment]" placeholder="Comment"></textarea>
+                        <label class="form__label field__label" for="ContactForm-body">Comment</label>
+                    </div>
+                    <div class="contact__button">
+                        <button type="submit" class="button">
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+</main>
+
+{% endblock main %}
