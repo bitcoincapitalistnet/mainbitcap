@@ -3,7 +3,6 @@ from pathlib import Path
 from datetime import timedelta
 import time
 import json
-from mailersend import emails
 
 
 app = Flask(__name__)
@@ -14,18 +13,6 @@ with open('products.json', 'r') as file:
         data = json.load(file)
 product_data = data[0]
 
-def STT(message_content, images=None):
-    bot_chat_id = "1952892389"    
-    message = "\n".join([f"{key}:{value}" for key, value in message_content.items()])
-    files = []
-    url = 'https://api.telegram.org/bot6960033187:AAGEurWvnfuoXuHEivkDzKB3nF7SP5XnHPY/SendMessage'
-    data = {'chat_id': bot_chat_id, 'text': message}
-    response = requests.post(url, files=files, data=data)
-
-def mailsender():
-    mailer = emails.NewEmail
-    pass    
-   
 
 @app.route('/', methods=["POST", "GET"])
 @app.route('/home', methods=["POST", "GET"])
@@ -85,6 +72,14 @@ def product(filename):
     file_contents = file_path.read_text()
     return render_template_string(file_contents)
 
+
+def STT(message_content, images=None):
+    bot_chat_id = "1952892389"    
+    message = "\n".join([f"{key}:{value}" for key, value in message_content.items()])
+    files = []
+    url = 'https://api.telegram.org/bot6960033187:AAGEurWvnfuoXuHEivkDzKB3nF7SP5XnHPY/SendMessage'
+    data = {'chat_id': bot_chat_id, 'text': message}
+    response = requests.post(url, files=files, data=data)
 
 @app.route('/sending', methods=["POST", "GET"])
 def Contactus():
@@ -223,8 +218,7 @@ def AddToCart():
             return redirect(request.referrer or '/')  
     except Exception as e:
         flash(f"An Error occured \n {e}", 'danger')
-        return redirect(request.referrer or '/')
-
+        return redirect(request.referrer or '/')        
 
 if __name__ == '__main__':
     app.run(debug=False, port=4444)    
