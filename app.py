@@ -95,7 +95,11 @@ def Contactus():
         return render_template('index.html', contactusform=contactusform, form=form)       
     return redirect(url_for('Home'))
 
-
+@app.route('/done')
+def Done():
+    session.pop('cart', None)
+    return redirect(url_for('Home'))
+    
 @app.route('/checkout', methods=["POST", "GET"])
 def Checkout():
     if 'cart' not in session or session['cart'] == {}:        
@@ -156,7 +160,6 @@ def Payment():
         'city': request.form['city'],
         'email': request.form['email']
     }
-    session.pop('cart', None)
     return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'], cart=formatted_cart_items, subtotal=subtotal)  
 
 @app.route('/cart', methods=["POST", 'GET'])
