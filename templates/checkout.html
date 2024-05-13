@@ -266,7 +266,8 @@
                   <label for="fname"><i class="fa fa-user"></i> Full Name</label>
                   <input type="text" id="fname" name="fullname" placeholder="John M. Doe" required>
                   <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                  <input type="text" id="email" name="email" placeholder="john@example.com" required>
+                  
+                  <input type="text" id="email" name="email" placeholder="john@example.com" pattern=".+@example\.com" size="30" required />
                   <div class="select">
                     <span class="select__flag" aria-hidden="true"></span>
                     <select class="select__input" name="country" id="country-selector">

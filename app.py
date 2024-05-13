@@ -3,10 +3,12 @@ from pathlib import Path
 from datetime import timedelta
 import time
 import json
+from os import environ
 
 
 app = Flask(__name__)
-app.secret_key = "b010de0b733688f73a8ea76120afe85615b988249ebd057cca7eeedd358d3c05"
+app.secret_key = environ.get('Skey')
+app.config['DEBUG'] = environ.get('DEBUG')
 app.permanent_session_lifetime = timedelta(days=5)
 
 with open('products.json', 'r') as file:
@@ -224,4 +226,4 @@ def AddToCart():
         return redirect(request.referrer or '/')        
 
 if __name__ == '__main__':
-    app.run(debug=False, port=4444)    
+    app.run()    
