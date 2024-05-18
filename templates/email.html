@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .order-summary {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .order-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .order-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .item-image {
+            flex: 0 0 45%;
+            text-align: center;
+        }
+        .item-image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .item-details {
+            flex: 1;
+            padding-left: 25px;
+        }
+        .item-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .item-price {
+            font-size: 14px;
+            color: #888;
+            margin: 5px 0 0 0;
+        }
+        .subtotal {
+            text-align: right;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+        @media (max-width: 600px) {
+            .order-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .item-image, .item-details {
+                flex: 1 0 100%;
+                padding-left: 0;
+            }
+            .item-image {
+                margin-bottom: 10px;
+            }
+            .subtotal {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Order Confirmation</h1>
+    </div>
+    <p>Dear {{ name }},</p>
+    <p>Thank you for your order! we will commence shipping on confirmation of your Payment</p>
+        
+    <p>Here is a summary of your purchase:</p>
+    <div class="order-summary">
+        {% for item in cart %}
+        <div class="order-item">
+            <div class="item-image">
+                <img src="{{ item.details['imgsrc'] }}" alt="{{ item.details['name'] }}">
+            </div>
+            <div class="item-details">
+                <p class="item-name">{{ item.details['name'] }}</p>
+                <p class="item-price">${{ "{:,.2f}".format(item.details['price']) }}</p>
+            </div>
+        </div>
+        {% endfor %}
+        <div class="subtotal">
+            Subtotal: {{subtotal}}
+        </div>
+    </div>
+</body>
+</html>

@@ -3,18 +3,37 @@ from pathlib import Path
 from datetime import timedelta
 import time
 import json
+from flask_mail import Mail, Message
 from os import environ
 
 
 app = Flask(__name__)
+
 app.secret_key = environ.get('Skey')
 app.config['DEBUG'] = environ.get('DEBUG')
 app.permanent_session_lifetime = timedelta(days=5)
+app.config['MAIL_SERVER'] = 'live.smtp.mailtrap.io'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USERNAME'] = 'api'
+app.config['MAIL_PASSWORD'] = environ.get('smptpass')
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USE_SSL'] = False
+app.config['MAIL_DEBUG'] = 1
+
+mail = Mail(app)
+
+def mailer(subject, html, recvr):
+    message = Message(
+        subject=subject,
+        recipients=[recvr],
+        sender=('BitcoinCapitalist', 'support@bitcoincapitalist.net')
+    )
+    message.html = html
+    mail.send(message)
 
 with open('products.json', 'r') as file:
         data = json.load(file)
 product_data = data[0]
-
 
 @app.route('/', methods=["POST", "GET"])
 @app.route('/home', methods=["POST", "GET"])
@@ -136,33 +155,43 @@ def RemoveCart():
 
 @app.route('/Payment', methods=['POST','GET'])
 def Payment():
-    if 'cart' not in session:
-        return redirect(url_for('Cart'))
-    if session['cart'] == {}:
-        flash("Add Some Items To Your Cart")
-        return redirect(url_for('Cart'))
-   
-    if 'cart' in session:        
-        cart_items = session['cart']
-        formatted_cart_items = []
-    subtotal = 0    
-    for product_id, product_details in cart_items.items():
-    # Format the cart item as needed
-        formatted_cart_items.append({
-        'product_id': product_id,
-        'details': product_details
-        })
-        subtotal += product_details['total_price']
-    subtotal = "{:,.2f}".format(subtotal)
-    order_details = {
-        'name': request.form['fullname'],
-        'address': request.form['address'],
-        'zip': request.form['zip'],
-        'country': request.form['country'],
-        'city': request.form['city'],
-        'email': request.form['email']
-    }
-    return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'], cart=formatted_cart_items, subtotal=subtotal)  
+    try:
+
+        if 'cart' not in session:
+            return redirect(url_for('Cart'))
+        if session['cart'] == {}:
+            flash("Add Some Items To Your Cart")
+            return redirect(url_for('Cart'))
+    
+        if 'cart' in session:        
+            cart_items = session['cart']
+            formatted_cart_items = []
+        subtotal = 0    
+        for product_id, product_details in cart_items.items():
+        # Format the cart item as needed
+            formatted_cart_items.append({
+            'product_id': product_id,
+            'details': product_details
+            })
+            subtotal += product_details['total_price']
+        subtotal = "{:,.2f}".format(subtotal)
+        order_details = {
+            'name': request.form['fullname'],
+            'address': request.form['address'],
+            'zip': request.form['zip'],
+            'country': request.form['country'],
+            'city': request.form['city'],
+            'email': request.form['email']
+        }
+        html = render_template('email.html', cart=formatted_cart_items, subtotal=subtotal, name=order_details['name'])
+
+        # Send the email
+        mailer("Order Confirmation/Reminder", html, order_details['email'])
+
+        return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal)
+    except Exception as e:
+        flash(f"An error occured while checking out{e}, try again or contact us")
+        return redirect(url_for('Cart'))    
 
 @app.route('/cart', methods=["POST", 'GET'])
 def Cart():
@@ -226,4 +255,4 @@ def AddToCart():
         return redirect(request.referrer or '/')        
 
 if __name__ == '__main__':
-    app.run()    
+    app.run(port=5556)    

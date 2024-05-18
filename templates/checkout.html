@@ -11,6 +11,10 @@
   <title>Payment Page</title>
 
   <style>
+     .error {
+            color: red;
+            font-size: 0.9em;
+     }
     .row {
       display: -ms-flexbox;
       /* IE10 */
@@ -250,102 +254,152 @@
           </div>
         </div>
         <div class="payment-right">
-          <form method="post" action="{{url_for('Payment')}}" class="payment-form">
+          <form method="post" action="{{url_for('Payment')}}" id="myForm" class="payment-form">
             <h1 class="payment-title">Shipping Details | Billing Address</h1>
-           
+    
             <div class="payment-form-group">
-              
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="fullname" placeholder="John M. Doe" required>
+                <span class="error" id="fnameError"></span>
             </div>
-
+    
             <div class="payment-form-group">
-
-              <div class="row">
-                <div class="col-50">
-                  
-                  <br />
-                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                  <input type="text" id="fname" name="fullname" placeholder="John M. Doe" required>
-                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                  
-                  <input type="text" id="email" name="email" placeholder="john@example.com" pattern=".+@example\.com" size="30" required />
-                  <div class="select">
-                    <span class="select__flag" aria-hidden="true"></span>
-                    <select class="select__input" name="country" id="country-selector">
-                      <option value="0">Select Country</option>
-                      <option value="IT">Italy</option>
-                      <option value="PT">Portugal</option>
-                      <option value="ES">Spain</option>
-                      <option value="AU">Australia</option>
-                      <option value="AT">Austria</option>
-                      <option value="BE">Belgium</option>
-                      <option value="CA">Canada</option>
-                      <option value="CZ">Czechia</option>
-                      <option value="DK">Denmark</option>
-                      <option value="FI">Finland</option>
-                      <option value="FR">France</option>
-                      <option value="DE">Germany</option>
-                      <option value="HK">Hong Kong SAR</option>
-                      <option value="IE">Ireland</option>
-                      <option value="IL">Israel</option>
-                      <option value="IT">Italy</option>
-                      <option value="JP">Japan</option>
-                      <option value="MY">Malaysia</option>
-                      <option value="NL">Netherlands</option>
-                      <option value="NZ">New Zealand</option>
-                      <option value="NO">Norway</option>
-                      <option value="PL">Poland</option>
-                      <option value="PT">Portugal</option>
-                      <option value="SG">Singapore</option>
-                      <option value="KR">South Korea</option>
-                      <option value="ES">Spain</option>
-                      <option value="SE">Sweden</option>
-                      <option value="CH">Switzerland</option>
-                      <option value="AE">United Arab Emirates</option>
-                      <option value="GB">United Kingdom</option>
-                      <option value="US">United States</option>
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@example.com" size="30" required />
+                <span class="error" id="emailError"></span>
+            </div>
     
-                    </select>
+            <div class="payment-form-group">
+                <label for="country"><i class="fa fa-globe"></i> Country</label>
+                <select class="select__input" name="country" id="country-selector" required>
+                    <option value="0">Select Country</option>
+                    <option value="IT">Italy</option>
+                    <option value="PT">Portugal</option>
+                    <option value="ES">Spain</option>
+                    <!-- Add other countries here -->
+                    <option value="US">United States</option>
+                </select>
+                <span class="error" id="countryError"></span>
+            </div>
     
-                    <svg class="select__arrow" aria-hidden="true" viewBox="0 0 16 16">
-                      <polyline points="3.5,6.5 8,11 12.5,6.5" stroke-width="2" fill="none" stroke="currentColor"
-                        stroke-linecap="round" stroke-linejoin="round"></polyline>
-                    </svg>
+            <div class="payment-form-group">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
+                <span class="error" id="adrError"></span>
+            </div>
     
+            <div class="payment-form-group">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="New York" required>
+                <span class="error" id="cityError"></span>
+            </div>
     
-                  </div>
-                  <br />
-                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
-                  <label for="city"><i class="fa fa-institution" ></i> City</label>
-                  <input type="text" id="city" name="city" placeholder="New York" required>
-  
-                  <div class="row">
+            <div class="payment-form-group">
+                <div class="row">
                     <div class="col-50">
-                      <label for="state">State</label>
-                      <input type="text" id="state" name="state" placeholder="NY" required>
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="NY" required>
+                        <span class="error" id="stateError"></span>
                     </div>
                     <div class="col-50">
-                      <label for="zip">Zip</label>
-                      <input type="text" id="zip" name="zip" placeholder="10001" required>
-  <!-- Once payment has been sent email BitcoinCapitalist21@gmail.com confirmation of the payment and we will get started with your order. -->
-
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001" required>
+                        <span class="error" id="zipError"></span>
                     </div>
-                  </div>
                 </div>
-              </div>           
-
             </div>
-            
-
-            
+    
             <button type="submit" class="payment-form-submit-button"><i class="ri-wallet-line"></i> Pay</button>
-          </form>
+        </form>
         </div>
       </div>
     </div>
   </section>
-  <!-- end: Payment -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var form = document.getElementById('myForm');
 
+        var inputs = form.querySelectorAll('input, select');
+        inputs.forEach(function(input) {
+            input.addEventListener('input', function() {
+                validateField(input);
+            });
+        });
+
+        form.addEventListener('submit', function(event) {
+            // event.preventDefault(); // Prevent form submission
+
+            var isValid = true;
+
+            inputs.forEach(function(input) {
+                isValid &= validateField(input);
+            });
+
+            if (isValid) {
+                alert('Form submitted successfully!');
+                form.submit(); // You can submit the form here if it's valid
+            }
+        });
+
+        function validateField(field) {
+            var value = field.value.trim();
+            var isValid = true;
+            var errorMessage = '';
+
+            switch (field.id) {
+                case 'fname':
+                    isValid = value !== '';
+                    errorMessage = 'Please enter your full name.';
+                    break;
+                case 'email':
+                    isValid = validateEmail(value);
+                    errorMessage = 'Please enter a valid email address.';
+                    break;
+                case 'adr':
+                    isValid = value.length >= 10;
+                    errorMessage = 'Address must be at least 10 characters long.';
+                    break;
+                case 'city':
+                    isValid = value.length >= 4;
+                    errorMessage = 'City must be at least 4 characters long.';
+                    break;
+                case 'state':
+                    isValid = value.length >= 4;
+                    errorMessage = 'State must be at least 4 characters long.';
+                    break;
+                case 'zip':
+                    isValid = validateZip(value);
+                    errorMessage = 'Please enter a valid zip code.';
+                    break;
+                case 'country-selector':
+                    isValid = field.value !== '0';
+                    errorMessage = 'Please select your country.';
+                    break;
+                default:
+                    break;
+            }
+
+            var errorElement = document.getElementById(field.id + 'Error');
+            if (!isValid) {
+                errorElement.textContent = errorMessage;
+            } else {
+                errorElement.textContent = '';
+            }
+
+            return isValid;
+        }
+
+        function validateEmail(email) {
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailPattern.test(email);
+        }
+
+        function validateZip(zip) {
+            var zipPattern = /^\d{5}(-\d{4})?$/;
+            return zipPattern.test(zip);
+        }
+    });
+</script>
 </body>
 
 </html>
