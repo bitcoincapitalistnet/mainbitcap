@@ -105,15 +105,20 @@ def STT(message_content, images=None):
 @app.route('/sending', methods=["POST", "GET"])
 def Contactus():
     try:
-        if request.method == "POST":            
+        if request.method == "POST": 
+            name = request.form['contact[Name]']   
+            email = request.form['contact[email]']
+            phone = request.form['contact[Phone number]']
+            comment = request.form['contact[Comment]']
+            message_content = {"Name":name, "Email":email, "Phone Number":phone, "Comment":comment}    
             STT(message_content)
             flash('Thanks For Your Feedback We Will Get Back To You', 'success')
             return redirect(url_for('Home'))
-        flash('Sorry Check Your Input', 'danger')
-        return render_template("index.html", contactusform=contactusform, form=form)
+        flash('Sorry something is not right try again')
+        return render_template(url_for('Home'))
     except Exception as e:
         flash(f'an error occured Try again \n hint: {e}', 'danger')
-        return render_template('index.html', contactusform=contactusform, form=form)       
+        return redirect(url_for('Contactus'))     
     return redirect(url_for('Home'))
 
 @app.route('/done')
@@ -188,7 +193,7 @@ def Payment():
         # Send the email
         mailer("Order Confirmation/Reminder", html, order_details['email'])
 
-        return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal)
+        return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],state=order_details['state'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal)
     except Exception as e:
         flash(f"An error occured while checking out{e}, try again or contact us")
         return redirect(url_for('Cart'))    
