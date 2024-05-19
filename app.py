@@ -10,13 +10,13 @@ from os import environ
 
 app = Flask(__name__)
 
-app.secret_key = 'b010de0b733688f73a8ea76120afe85615b988249ebd057cca7eeedd358d3c05'
-app.config['DEBUG'] = True
+app.secret_key = environ.get('Skey')
+app.config['DEBUG'] = environ.get('DEBUG')
 app.permanent_session_lifetime = timedelta(days=5)
 app.config['MAIL_SERVER'] = 'live.smtp.mailtrap.io'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USERNAME'] = 'api'
-app.config['MAIL_PASSWORD'] = '11562dc13409469e62651cf7b4ee5f3f'
+app.config['MAIL_PASSWORD'] = environ.get('smptpass')
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 app.config['MAIL_DEBUG'] = 1
