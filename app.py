@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, send_from_directory, render_template_string, request, session, flash
 from pathlib import Path
+import requests
 from datetime import timedelta
 import time
 import json
@@ -9,13 +10,13 @@ from os import environ
 
 app = Flask(__name__)
 
-app.secret_key = environ.get('Skey')
-app.config['DEBUG'] = environ.get('DEBUG')
+app.secret_key = 'b010de0b733688f73a8ea76120afe85615b988249ebd057cca7eeedd358d3c05'
+app.config['DEBUG'] = True
 app.permanent_session_lifetime = timedelta(days=5)
 app.config['MAIL_SERVER'] = 'live.smtp.mailtrap.io'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USERNAME'] = 'api'
-app.config['MAIL_PASSWORD'] = environ.get('smptpass')
+app.config['MAIL_PASSWORD'] = '11562dc13409469e62651cf7b4ee5f3f'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 app.config['MAIL_DEBUG'] = 1
@@ -97,29 +98,29 @@ def product(filename):
 def STT(message_content, images=None):
     bot_chat_id = "1952892389"    
     message = "\n".join([f"{key}:{value}" for key, value in message_content.items()])
-    files = []
     url = 'https://api.telegram.org/bot6960033187:AAGEurWvnfuoXuHEivkDzKB3nF7SP5XnHPY/SendMessage'
     data = {'chat_id': bot_chat_id, 'text': message}
-    response = requests.post(url, files=files, data=data)
+    response = requests.post(url, data=data)
 
 @app.route('/sending', methods=["POST", "GET"])
 def Contactus():
     try:
-        if request.method == "POST": 
-            name = request.form['contact[Name]']   
-            email = request.form['contact[email]']
-            phone = request.form['contact[Phone number]']
-            comment = request.form['contact[Comment]']
-            message_content = {"Name":name, "Email":email, "Phone Number":phone, "Comment":comment}    
+        name = request.form['contact[Name]']   
+        email = request.form['contact[email]']
+        phone = request.form['contact[Phone number]']
+        comment = request.form['contact[Comment]']
+        message_content = {"Name":name, "Email":email, "Phone Number":phone, "Comment":comment}
+        if request.method == "POST":                
             STT(message_content)
             flash('Thanks For Your Feedback We Will Get Back To You', 'success')
             return redirect(url_for('Home'))
         flash('Sorry something is not right try again')
-        return render_template(url_for('Home'))
+        return render_template('index.html')
     except Exception as e:
         flash(f'an error occured Try again \n hint: {e}', 'danger')
         return redirect(url_for('Contactus'))     
     return redirect(url_for('Home'))
+
 
 @app.route('/done')
 def Done():
@@ -186,12 +187,15 @@ def Payment():
             'zip': request.form['zip'],
             'country': request.form['country'],
             'city': request.form['city'],
-            'email': request.form['email']
+            'email': request.form['email'],
+            'state': request.form['state']
         }
         html = render_template('email.html', cart=formatted_cart_items, subtotal=subtotal, name=order_details['name'])
 
         # Send the email
         mailer("Order Confirmation/Reminder", html, order_details['email'])
+        message_content = {"Name":order_details['name'], "email":order_details['email'], "cart_id":[id for id in session['cart'].keys()]}
+        STT(message_content)
 
         return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],state=order_details['state'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal)
     except Exception as e:
@@ -260,4 +264,4 @@ def AddToCart():
         return redirect(request.referrer or '/')        
 
 if __name__ == '__main__':
-    app.run(port=5556)    
+    app.run(port=4444)    
