@@ -39,9 +39,9 @@ with open('products.json', 'r') as file:
         data = json.load(file)
 product_data = data[0]
 
-@app.route('/', methods=["POST", "GET"])
-@app.route('/home', methods=["POST", "GET"])
 @app.route('/index', methods=["POST", "GET"])
+@app.route('/home', methods=["POST", "GET"])
+@app.route('/', methods=["POST", "GET"])
 def Home():
     return render_template('index.html')
     
