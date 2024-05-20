@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, send_from_directory, render_template_string, request, session, flash
 from pathlib import Path
-from flask_wtf.csrf import CSRFProtect
+# from flask_wtf.csrf import CSRFProtect
 import requests
 from datetime import timedelta
 import time
@@ -12,7 +12,7 @@ from os import environ
 app = Flask(__name__)
 # environ.get('Skey')
 app.secret_key = environ.get('Skey')
-csrf = CSRFProtect(app)
+# csrf = CSRFProtect(app)
 # environ.get('DEBUG')
 app.config['DEBUG'] = environ.get('DEBUG')
 app.permanent_session_lifetime = timedelta(days=5)
@@ -267,4 +267,4 @@ def AddToCart():
         return redirect(request.referrer or '/')        
 
 if __name__ == '__main__':
-    app.run(port=4443)    
+    app.run(port=4446)    

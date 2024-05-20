@@ -42,7 +42,7 @@
             <div class="contact page-width page-width--narrow section-template--18680031838495__form-padding">
                 <h2 class="visually-hidden">Contact form</h2>
                 <form method="post" action="{{url_for('Contactus')}}" id="ContactForm" accept-charset="UTF-8" class="isolate">
-                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    
                     <input type="hidden" name="form_type" value="contact"/><input type="hidden" name="utf8" value="✓"/><div class="contact__fields">
                         <div class="field">
                             <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="" placeholder="Name">
