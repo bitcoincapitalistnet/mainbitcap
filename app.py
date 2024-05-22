@@ -11,7 +11,7 @@ from os import environ
 
 app = Flask(__name__)
 # environ.get('Skey')
-app.secret_key = "environ.get('Skey')"
+app.secret_key = environ.get('Skey')
 # csrf = CSRFProtect(app)
 # environ.get('DEBUG')
 app.config['DEBUG'] = False
