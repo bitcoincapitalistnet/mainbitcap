@@ -220,9 +220,9 @@ def Payment():
         html = render_template('email.html', cart=formatted_cart_items, subtotal=subtotal, name=order_details['name'])
 
         # Send the email
-        # mailer("Order Confirmation/Reminder", html, order_details['email'])
-        # message_content = {"Name":order_details['name'], "email":order_details['email'], "cart_id":[id for id in session['cart'].keys()]}
-        # STT(message_content)
+        mailer("Order Confirmation/Reminder", html, order_details['email'])
+        message_content = {"Name":order_details['name'], "email":order_details['email'], "cart_id":[id for id in session['cart'].keys()]}
+        STT(message_content)
 
         return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],state=order_details['state'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal, Crypto_data = Crypto_data, randnum=randnum)
     except Exception as e:
