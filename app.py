@@ -65,6 +65,11 @@ def CostaRica():
 def BitcoinMiners():
     return render_template('collections/bitcoin-miners')
 
+@app.route('/bitcoin-containers', methods=["POST", "GET"])
+def BitcoinMiningContainers():
+    return render_template('collections/bitcoin-mining-containers')
+    
+
 @app.route('/bitcoin-atms', methods=["POST", "GET"])
 def BitcoinATMs():
     return render_template('collections/bitcoin-atms')
