@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, send_from_directory, render_template_string, request, session, flash
+from flask import Flask, render_template, redirect, url_for, send_from_directory, render_template_string, request, session, flash, jsonify
 from pathlib import Path
 # from flask_wtf.csrf import CSRFProtect
 import requests
@@ -12,9 +12,8 @@ from os import environ
 app = Flask(__name__)
 # environ.get('Skey')
 app.secret_key = environ.get('Skey')
-# csrf = CSRFProtect(app)
 # environ.get('DEBUG')
-app.config['DEBUG'] = False
+app.config['DEBUG'] = environ.get('DEBUG')
 app.permanent_session_lifetime = timedelta(days=5)
 app.config['MAIL_SERVER'] = 'live.smtp.mailtrap.io'
 app.config['MAIL_PORT'] = 587
@@ -39,6 +38,10 @@ with open('products.json', 'r') as file:
         data = json.load(file)
 product_data = data[0]
 
+with open('config.json', 'r') as file:
+        data = json.load(file)
+
+Crypto_data = data
 @app.route('/index', methods=["POST", "GET"])
 @app.route('/home', methods=["POST", "GET"])
 @app.route('/', methods=["POST", "GET"])
@@ -99,9 +102,9 @@ def product(filename):
 
 
 def STT(message_content, images=None):
-    bot_chat_id = "1952892389"    
+    bot_chat_id = "6682051232"    
     message = "\n".join([f"{key}:{value}" for key, value in message_content.items()])
-    url = 'https://api.telegram.org/bot6960033187:AAGEurWvnfuoXuHEivkDzKB3nF7SP5XnHPY/SendMessage'
+    url = 'https://api.telegram.org/bot6991731410:AAHEXH4VoOdpFsoG-CPkeyuo48pr-QPe4Zg/SendMessage'
     data = {'chat_id': bot_chat_id, 'text': message}
     response = requests.post(url, data=data)
 
@@ -128,7 +131,7 @@ def Contactus():
 @app.route('/done')
 def Done():
     session.pop('cart', None)
-    return redirect(url_for('Home'))
+    return redirect(url_for('Catalog'))
     
 @app.route('/checkout', methods=["POST", "GET"])
 def Checkout():
@@ -149,6 +152,23 @@ def Checkout():
         subtotal += product_details['total_price']
     subtotal = "{:,.2f}".format(subtotal)    
     return render_template('checkout.html', cart=formatted_cart_items, subtotal=subtotal)
+
+
+@app.route('/update_cart', methods=['POST'])
+def update_cart():
+    data = request.get_json()
+    quantity = int(data['Quantity'])
+    product_id = data['Product_id']  
+    print(f"the product_id is {product_id}")  
+    if product_id in session['cart']:
+        price = session['cart'][product_id]['price']
+        session['cart'][product_id]['quantity'] = 0                
+        session['cart'][product_id]['quantity'] += quantity
+        session['cart'][product_id]['total_price'] = 0
+        session['cart'][product_id]['total_price'] += price * quantity
+        session.modified = True
+        flash("Cart Updated Successfully!", 'success') 
+    return jsonify({'message': 'Cart updated successfully'}), 200
 
 @app.route('/deleting/', methods=['POST'])
 def RemoveCart():
@@ -200,7 +220,7 @@ def Payment():
         message_content = {"Name":order_details['name'], "email":order_details['email'], "cart_id":[id for id in session['cart'].keys()]}
         STT(message_content)
 
-        return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],state=order_details['state'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal)
+        return render_template('wallet.html', name=order_details['name'], address=order_details['address'], zip=order_details['zip'], country=order_details['country'], city=order_details['city'],state=order_details['state'],email=order_details['email'], cart=formatted_cart_items, subtotal=subtotal, Crypto_data = Crypto_data)
     except Exception as e:
         flash(f"An error occured while checking out{e}, try again or contact us")
         return redirect(url_for('Cart'))    

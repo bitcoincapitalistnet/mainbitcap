@@ -90,12 +90,23 @@ section li {
   <div class="split-container">
     <div class="top-half">
       <h2>Your payment should be made here:</h2>
+      {% for cryptoname, cryptovalue in Crypto_data.items() %}
+      {% if 'BTC(Bitcoin)' in cryptoname %}
       <p>
+        <p>{{cryptoname}}: <span id="btc-address"><input type="text" value="{{cryptovalue}}" id="btc" readonly> </span><button onclick="copyToClipboard('btc')">Copy To clipboard</button>
+      </p>
+      {% else %}
+      <p>
+        <p>{{cryptoname}}: <span id="btc-address"><input type="text" value="{{cryptovalue}}" id="usdt" readonly> </span><button onclick="copyToClipboard('usdt')">Copy To clipboard</button>
+      </p>
+      {% endif %}
+      {%endfor %}
+      <!-- <p>
         <p>Bitcoin Address(BTC): <span id="btc-address"><input type="text" value="bc1qdaey7x234xpaz777ta47vq6ghmvyv6gn333n4e" id="btc" readonly> </span><button onclick="copyToClipboard('btc')">Copy To clipboard</button>
       </p>
       <p>
         <p>USDT Address( TRC-20): <span id="btc-address"><input type="text" value="TVjT8QpLuzA5PmEnMvf1T1VNkeGm4f7p7L" id="usdt" readonly> </span><button onclick="copyToClipboard('usdt')">Copy To clipboard</button>
-      </p>
+      </p> -->
       
 
       <!-- The button used to copy the text -->
