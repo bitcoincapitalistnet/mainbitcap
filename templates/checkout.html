@@ -622,7 +622,7 @@
         }
 
         function validateZip(zip) {
-            var zipPattern = /^\d{5}(-\d{4})?$/;
+            var zipPattern = /^[a-zA-Z0-9]+$/;;
             return zipPattern.test(zip);
         }
     });
