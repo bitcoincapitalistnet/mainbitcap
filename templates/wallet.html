@@ -123,10 +123,8 @@ section li {
           {% for item in cart %}
 
           <p class="payment-header-description">
-
-            {{ item['details']['name'] }} | ${{ "{:,.2f}".format(item['details']['price']) }}
-
-
+            {{ item['details']['name'] }} | ${{ "{:,.2f}".format(item['details']['price']) }} * {{
+              item['details']['quantity'] }}
           </p>
           
           <br />
