@@ -992,7 +992,7 @@
           </div>
         </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="{{url_for('AddToCart')}}" id="quick-add-template--18680031772959__product-grid8973696893215" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
                     type="hidden"
-                    name="id"
+                    identity
                     value="47835094974751"
                     disabled
                   >
@@ -1146,7 +1146,7 @@
           </div>
         </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="{{url_for('AddToCart')}}" id="quick-add-template--18680031772959__product-grid8881255022879" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
                     type="hidden"
-                    name="id"
+                    identity
                     value="47483602370847"
                     disabled
                   >
@@ -1302,7 +1302,7 @@
           </div>
         </div><div class="quick-add no-js-hidden"><product-form><form method="post" action="{{url_for('AddToCart')}}" id="quick-add-template--18680031772959__product-grid8881238212895" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
                     type="hidden"
-                    name="id"
+                    identity
                     value="47483538112799"
                     disabled
                   >
